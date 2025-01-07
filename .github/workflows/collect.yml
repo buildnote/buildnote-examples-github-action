@@ -15,4 +15,5 @@ jobs:
 
       - name: Collect
         uses: buildnote/action@main
-        params: "--include-junit-test-results=**/TEST-junit*.xml"
+        with:
+          args: "--include-junit-test-results=**/TEST-junit*.xml"
