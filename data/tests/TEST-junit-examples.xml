@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="77" failures="0" errors="0" time="1.457">
+    <testsuite name="test/unit/components/Accordion/Accordion.spec.tsx" timestamp="2025-01-01T19:01:15.171Z" hostname="migi" tests="1" failures="0" errors="0" skipped="0" time="0.084786792">
+        <testcase classname="test/unit/components/Accordion/Accordion.spec.tsx" name="Accordion component &gt; should be accessible" time="0.084176209">
+        </testcase>
+    </testsuite>
+    <testsuite name="test/unit/components/Button/Button.spec.tsx" timestamp="2025-01-01T19:01:15.171Z" hostname="migi" tests="1" failures="0" errors="0" skipped="0" time="0.055553791">
+        <testcase classname="test/unit/components/Button/Button.spec.tsx" name="Button component &gt; should be accessible" time="0.054890375">
+        </testcase>
+    </testsuite>
+    <testsuite name="test/unit/components/Drawer/Drawer.spec.tsx" timestamp="2025-01-01T19:01:15.171Z" hostname="migi" tests="4" failures="0" errors="0" skipped="0" time="0.414080541">
+        <testcase classname="test/unit/components/Drawer/Drawer.spec.tsx" name="Drawer component &gt; should be accessible" time="0.051942209">
+        </testcase>
+        <testcase classname="test/unit/components/Drawer/Drawer.spec.tsx" name="Drawer component &gt; should render children" time="0.008194375">
+        </testcase>
+        <testcase classname="test/unit/components/Drawer/Drawer.spec.tsx" name="Drawer component &gt; should display contents when clicking the open button" time="0.02777225">
+        </testcase>
+        <testcase classname="test/unit/components/Drawer/Drawer.spec.tsx" name="Drawer component &gt; should disappear when clicking the close button" time="0.325402584">
+        </testcase>
+    </testsuite>
+    <testsuite name="test/unit/components/Icon/Icon.spec.tsx" timestamp="2025-01-01T19:01:15.172Z" hostname="migi" tests="53" failures="0" errors="0" skipped="0" time="0.347197042">
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;accessories&apos; should be accessible" time="0.038118542">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;adapter&apos; should be accessible" time="0.014162459">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;arrow-right&apos; should be accessible" time="0.015853292">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;beaker&apos; should be accessible" time="0.007946542">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;bell&apos; should be accessible" time="0.008233083">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;bottle&apos; should be accessible" time="0.005294167">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;brain&apos; should be accessible" time="0.007146042">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;bundle&apos; should be accessible" time="0.006888917">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;car&apos; should be accessible" time="0.009365">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;cart&apos; should be accessible" time="0.006095541">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;checkmark&apos; should be accessible" time="0.00586">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;chevron&apos; should be accessible" time="0.006601166">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;clock&apos; should be accessible" time="0.006101208">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;close&apos; should be accessible" time="0.005426167">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;eight&apos; should be accessible" time="0.008698083">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;eye&apos; should be accessible" time="0.006899209">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;facebook&apos; should be accessible" time="0.006757416">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;five&apos; should be accessible" time="0.0061415">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;four&apos; should be accessible" time="0.005930166">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;gear&apos; should be accessible" time="0.005289">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;gift&apos; should be accessible" time="0.005113041">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;globe&apos; should be accessible" time="0.005280916">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;hamburger&apos; should be accessible" time="0.005249416">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;info&apos; should be accessible" time="0.006472458">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;instagram&apos; should be accessible" time="0.005295667">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;map&apos; should be accessible" time="0.005241625">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;minus&apos; should be accessible" time="0.004704125">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;nine&apos; should be accessible" time="0.006297583">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;one&apos; should be accessible" time="0.005731625">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;outbound&apos; should be accessible" time="0.004956791">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;pitcher&apos; should be accessible" time="0.004654625">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;placeholder&apos; should be accessible" time="0.004641583">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;plus&apos; should be accessible" time="0.004132958">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;pod&apos; should be accessible" time="0.004996">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;remove&apos; should be accessible" time="0.005105958">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;repeats&apos; should be accessible" time="0.004767583">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;save&apos; should be accessible" time="0.006598375">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;scentaste&apos; should be accessible" time="0.005417917">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;seven&apos; should be accessible" time="0.005718375">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;six&apos; should be accessible" time="0.005613209">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;spinner&apos; should be accessible" time="0.004823542">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;star&apos; should be accessible" time="0.005197584">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;star-half&apos; should be accessible" time="0.004009">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;star-empty&apos; should be accessible" time="0.005364625">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;sun&apos; should be accessible" time="0.007310042">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;three&apos; should be accessible" time="0.006933917">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;tiktok&apos; should be accessible" time="0.004286125">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;trustpilot&apos; should be accessible" time="0.005181583">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;two&apos; should be accessible" time="0.005598333">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;user&apos; should be accessible" time="0.003992875">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; &apos;weight&apos; should be accessible" time="0.004055583">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; findIconBy &gt; can find an IconType for a known string" time="0.000195125">
+        </testcase>
+        <testcase classname="test/unit/components/Icon/Icon.spec.tsx" name="Icon component &gt; findIconBy &gt; cannot find an IconType for an unknown string" time="0.00005325">
+        </testcase>
+    </testsuite>
+    <testsuite name="test/unit/components/Logo/Logo.spec.tsx" timestamp="2025-01-01T19:01:15.174Z" hostname="migi" tests="1" failures="0" errors="0" skipped="0" time="0.055337916">
+        <testcase classname="test/unit/components/Logo/Logo.spec.tsx" name="Logo component &gt; should be accessible" time="0.054742625">
+        </testcase>
+    </testsuite>
+    <testsuite name="test/unit/components/Ratings/Ratings.spec.tsx" timestamp="2025-01-01T19:01:15.175Z" hostname="migi" tests="17" failures="0" errors="0" skipped="0" time="0.059671667">
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 1 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 1" time="0.023153542">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 1 full stars, 1 half stars and &amp;expectedEmptyStars empty stars if rating is 1.3" time="0.003317417">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 1 full stars, 1 half stars and &amp;expectedEmptyStars empty stars if rating is 1.5" time="0.002772333">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 2 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 1.8" time="0.006543125">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 2 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 2" time="0.00473225">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 2 full stars, 1 half stars and &amp;expectedEmptyStars empty stars if rating is 2.3" time="0.001590458">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 2 full stars, 1 half stars and &amp;expectedEmptyStars empty stars if rating is 2.5" time="0.00190325">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 3 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 2.8" time="0.001196834">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 3 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 3" time="0.002006">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 3 full stars, 1 half stars and &amp;expectedEmptyStars empty stars if rating is 3.3" time="0.001203583">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 3 full stars, 1 half stars and &amp;expectedEmptyStars empty stars if rating is 3.5" time="0.001061167">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 4 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 3.8" time="0.001119292">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 4 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 4" time="0.001946458">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 4 full stars, 1 half stars and &amp;expectedEmptyStars empty stars if rating is 4.3" time="0.0024625">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 4 full stars, 1 half stars and &amp;expectedEmptyStars empty stars if rating is 4.5" time="0.000966166">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 5 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 4.8" time="0.001060541">
+        </testcase>
+        <testcase classname="test/unit/components/Ratings/Ratings.spec.tsx" name="Ratings component &gt; should show 5 full stars, +0 half stars and &amp;expectedEmptyStars empty stars if rating is 5" time="0.000909542">
+        </testcase>
+    </testsuite>
+</testsuites>
