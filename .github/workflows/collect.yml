@@ -4,12 +4,11 @@ on:
       - main
 
 jobs:
-  tests:
-    name: "Tests"
+  collect-example:
     runs-on: ubuntu-latest
     env:
       BUILDNOTE_API_KEY: ${{ secrets.BUILDNOTE_API_KEY }}
-      BUILDNOTE_GITHUB_JOB_NAME: "Tests"
+      BUILDNOTE_GITHUB_JOB_NAME: collect-example
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.7
