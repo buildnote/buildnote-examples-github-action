@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tests:
+    name: "Tests"
+    runs-on: ubuntu-latest
+    env:
+      BUILDNOTE_API_KEY: ${{ secrets.BUILDNOTE_API_KEY }}
+      BUILDNOTE_GITHUB_JOB_NAME: "Tests"
+    steps:
+      - name: Install Buildnote only
+        uses: buildnote/action@main
+        with:
+          installOnly: 'true'
+
+      - name: Trace some commands
+        run: |
+          buildnote trace --name="something to trace" -- echo "Hello!"
+          buildnote trace --name="sleep for longer" -- sleep 2
+          buildnote trace --name="triggers error" -- ./trace-error.sh
