@@ -1,0 +1,16 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tests:
+    name: "Tests"
+    runs-on: ubuntu-latest
+    env:
+      BUILDNOTE_API_KEY: ${{ secrets.BUILDNOTE_API_KEY }}
+      BUILDNOTE_GITHUB_JOB_NAME: "Tests"
+    steps:
+      - name: Collect
+        uses: buildnote/action@main
+        params: "--include-junit-test-results=**/TEST-junit*.xml"
