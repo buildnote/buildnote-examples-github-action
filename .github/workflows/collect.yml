@@ -11,6 +11,9 @@ jobs:
       BUILDNOTE_API_KEY: ${{ secrets.BUILDNOTE_API_KEY }}
       BUILDNOTE_GITHUB_JOB_NAME: "Tests"
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+
       - name: Collect
         uses: buildnote/action@main
         params: "--include-junit-test-results=**/TEST-junit*.xml"
