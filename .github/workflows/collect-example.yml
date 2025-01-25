@@ -16,4 +16,4 @@ jobs:
       - name: Collect
         uses: buildnote/action@main
         with:
-          args: --include-junit-test-results "**/TEST-junit*.xml" --include-files "**/*.png" "**/*.jpg" "**/*.mmd" "**/*.md"
+          args: --include-junit-test-results "**/TEST-junit*.xml" --include-files "**/files/*.png" "**/files/*.jpg" "**/files/*.mmd" "**/files/*.md"
