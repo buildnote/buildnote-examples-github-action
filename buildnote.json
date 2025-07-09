@@ -1,0 +1,16 @@
+{
+  "collect": {
+    "junit": {
+      "enabled": true,
+      "include": [
+        "**/TEST-*.xml"
+      ]
+    },
+
+    "files": {
+      "include": [
+        "**/data/files/*"
+      ]
+    }
+  }
+}
